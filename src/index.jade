@@ -1,0 +1,21 @@
+doctype 5
+html(lang="en")
+	head
+		title=pageTitle
+		meta( name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+		link( href='http://fonts.googleapis.com/css?family=Cutive+Mono|Carter+One', rel='stylesheet', type='text/css')
+		link( href='big.css', rel='stylesheet', type='text/css')
+	body
+		- each val in slideContent 
+			- var isImg = new RegExp(/jpg|jpeg|png|gif/g)
+			if isImg.test( val )
+				.slide
+					img( src=val )
+			else if 'gist' == val.substring(0,4)
+				.slide
+
+					script( src='http://'+val)
+			else
+				.slide!=val
+
+		script(type='text/javascript', src="big.js")
