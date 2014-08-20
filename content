@@ -1,0 +1,7 @@
+<h1>A future presentation</h1>
+<h2>About David A. Kennedy</h2>
+<p>I love the Web, accessibility and open source.</p>
+<h3>Onward!</h3>
+<p>A <a href="http://davidakennedy.com">link</a> example.</p>
+<h3>A code example</h3>
+<div class="gist"><pre><code>&lt;label&gt;Placeholders are not labels&lt;/label&gt;</code></pre></div>
