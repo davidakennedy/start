@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 				}],
 				options: {
 					data: {
-						pageTitle: 'accessu2014' ,
+						pageTitle: 'Start' ,
 						'slideContent': slideContent	
 					},
 					pretty: true,
